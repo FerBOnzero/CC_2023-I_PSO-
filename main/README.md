@@ -11,6 +11,7 @@ En la presente carpeta se incluye el código con extensión .ipynb de la impleme
 - Se eligieron dos funciones objetivos con mínimos globales conocidos para las pruebas.
 
 ### Observaciones acerca de la implementación en paralelo
+- Se decidió paralelizar la actualización de cada partícula, es decir, cuál es la nueva posición de cada partícula en cada iteración.
 - Podemos correr Cuda con Numba.
 - Cuda tiene un decorador, el cual es @cuda.jit que es usado para definir funciones que correran en la GPU.
 - Dicho decorador se pone a la "función kernel" la cuál se define de tal manera ya que es la que se espera correr en GPU, o bien, se piensa como aquella función que tiende a repetirse con "mucha" frecuencia. Además dicha función no presenta un return.
