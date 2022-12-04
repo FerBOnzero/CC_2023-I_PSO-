@@ -20,3 +20,4 @@ En la presente carpeta se incluye el código con extensión .ipynb de la impleme
 - https://thedatafrog.com/en/articles/boost-python-gpu/
 - https://developer.nvidia.com/how-to-cuda-python
 - https://medium.com/@gbadahamza18/exploit-your-gpu-by-parallelizing-your-codes-using-python-2dd8e2215aa8
+- https://www.geeksforgeeks.org/running-python-script-on-gpu/
