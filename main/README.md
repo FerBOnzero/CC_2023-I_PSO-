@@ -6,6 +6,10 @@ En la presente carpeta se incluye el código con extensión .ipynb de la impleme
 - Se requiere tener instalada la librería **Numpy** de Python en una versión 1.21 o inferior, esto para poder correr Cuda con Numba.
 - Se requiere tarjeta gráfica nvidia en tu equipo para correr código.
 
+### Consideración propias respecto al algoritmo PSO
+- Para elegir la mejor partícula, se declaró que la mejor sería aquella que minimice la función objetivo, así que la implementación de la mejor partícula como el máximo es similar.
+- Se eligieron dos funciones objetivos con mínimos globales conocidos para las pruebas.
+
 ### Observaciones acerca de la implementación en paralelo
 - Podemos correr Cuda con Numba.
 - Cuda tiene un decorador, el cual es @cuda.jit que es usado para definir funciones que correran en la GPU.
